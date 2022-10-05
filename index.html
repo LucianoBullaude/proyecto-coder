@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FrontRuedas</title>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg border-bottom c-fondox">
+        <div class="container">
+            <a class="navbar-brand c-logo" href="#"><img src="./img/cacho.png" width="65" alt="" class="">FrontRuedas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link link-activo " aria-current="page" href="./pages/ingresar.html">Ingresar</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/autos.html">Autos</a></li>
+                            <li><a class="dropdown-item" href="./pages/utilitarios.html">Utilitarios</a></li>
+                            <li><a class="dropdown-item" href="./pages/motos.html">Motos</a></li>
+                            <li><a class="dropdown-item" href="./pages/otros.html">Otros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container" id="portada">
+            <div class="row">
+                <div class="col-lg">
+                    <img src="./img/autoventa.jpg" alt="" class="w-100">
+                </div>
+
+                <div class="col-lg order-lg-first d-lg-flex flex-lg-column justify-content-center">
+                    <h1 class="text-center text-lg-start fw-bold display-1">Los Mejores Autos Usados de<span
+                            class="c-vino">Mendoza</span></h1>
+
+                    <p class="text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                        consequatur
+                        cumque voluptate est
+                        nemo quas, corporis perspiciatis velit reprehenderit quia vitae esse ducimus placeat sint sequi
+                        excepturi distinctio suscipit dolores?</p>
+
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="" class="btn btn-lg bg-violeta c-blanco">Publica Ya!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container my-5 p-4 shadow" id="contacto">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="text-center fw-bold text-lg-start display-3">Publica tu Vehículo gratis</h2>
+                    <p class="text-center text-lg-start p-3">¿Aún no estas registrado?
+                        Ingresá tus datos y registrate acá</p>
+
+                    <form action="" class="row align-items-lg-center gap-2 mt-2">
+                        <input type="email" class="form-control  col-lg-5" id="input-email"
+                            placeholder="Email">
+
+                        <input type="password" class="form-control  my-3 col-lg-5" id="input-contraseña" 
+                        placeholder="Contraseña">
+
+                        <div class="d-flex justify-content-center justify-content-lg-start col-lg-2">
+                            <input type="submit" class="btn bg-violeta c-blanco" value="Registrar">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img src="./img/reyy.jpg" width="300px" alt="" class="h-100">
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid bg-naranja c-blanco">
+
+        <div class="container">
+
+            <div class="row align-items-ba justify-content-between align-items-center border-bottom">
+
+                <div class="d-flex flex-column align-items-center p-3 col-lg-3">
+                    <img src="./img/cacho.png" alt="" class="w-25">
+                    <span class="text-center">FrontRuedas© 2022 - Cambiar tu auto nunca fue tan fácil</span>
+                </div>
+
+                <div class="p-3 col-lg-3">
+                    <h4 class="text-center text-lg-start">Nuestras Redes</h4>
+                    <div class="fs-2 d-flex justify-content-around justify-content-lg-between py-3">
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+
+                <div class="p-3 col-lg-4">
+                    <h4 class="text-center text-lg-start">Links de Interés</h4>
+                    <div>Ayuda</div>
+                    <div>Términos y Condiciones</div>
+                    <div>Escribí a FrontRuedas</div>
+                </div>
+
+
+
+            </div>
+
+            <p class="m-0 p-3 text-center"></p>
+
+        </div>
+
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

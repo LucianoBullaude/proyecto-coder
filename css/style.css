@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.c-fondox {
+    background-color: #fd2b2b;
+}
+
+.c-logo {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 1000;
+    color: white
+}
+
+.bg-naranja {
+    background-color: #fd2b2b;
+}
+
+.bg-azul {
+    color: #03156e;
+}
+
+.bg-violeta {
+    background-color: #8011F2;
+}
+
+.c-vino {
+    color: #3c0572;
+}
+
+.c-blanco {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: #8011F2;
+}
+
+.link-activo {
+    background-color: #8011F2;
+    color: white;
+    border-radius: 10px;
+}
+
+.link-activo:hover {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .form-control {
+        width: auto;
+    }
+}
+
+
+
