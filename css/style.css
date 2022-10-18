@@ -50,6 +50,7 @@
     color: white;
 }
 
+
 @media (min-width: 992px) {
     .form-control {
         width: auto;
