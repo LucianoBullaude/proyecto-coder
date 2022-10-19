@@ -4,18 +4,6 @@
     box-sizing: border-box;
 }
 
-
-.c-fondox {
-    background-color: #fd2b2b;
-}
-
-.c-logo {
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 1000;
-    color: white
-}
-
 .bg-naranja {
     background-color: #fd2b2b;
 }
@@ -26,6 +14,83 @@
 
 .bg-violeta {
     background-color: #8011F2;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 345px;
+    height: 210px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .contenido h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #8011F2;
+    border: 1px solid #8011F2;
+    border-radius: 4px;
+    transform: all 400ms ease;
+}
+
+.card .contenido a:hover {
+    background: #8011F2;
+    color: #fff;
+}
+
+.c-fondox {
+    background-color: #fd2b2b;
+}
+
+.c-logo {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 1000;
+    color: white;
+}
+
+.bg-naranja {
+    background-color: #fd2b2b;
+}
+
+.c-blanco {
+    color: white;
 }
 
 .c-vino {
@@ -50,12 +115,4 @@
     color: white;
 }
 
-
-@media (min-width: 992px) {
-    .form-control {
-        width: auto;
-    }
-}
-
-
-
+/*# sourceMappingURL=style.css.map */
